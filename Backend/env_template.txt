@@ -1,0 +1,20 @@
+# FastAPI Backend Configuration
+DEBUG=True
+ENVIRONMENT=development
+
+# Watsonx API Configuration
+WATSONX_API_KEY=your_watson_api_key_here
+WATSONX_PROJECT_ID=your_project_id_here
+WATSONX_MODEL_ID=meta-llama/llama-3-1-70b-instruct
+WATSONX_URL=https://us-south.ml.cloud.ibm.com
+
+# Sarvam AI Configuration
+SARVAM_API_KEY=your_sarvam_api_key_here
+
+# Upload Configuration
+MAX_FILE_SIZE_MB=50
+ALLOWED_EXTENSIONS=.mp3,.wav
+
+# Server Configuration
+HOST=0.0.0.0
+PORT=8000
